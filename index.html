@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sidebar.css">
+    <title>Sidebar</title>
+</head>
+<body> 
+
+    <header><h1 class="title">Dashboard</h1></header>
+    
+    
+    
+    <nav id="menuoculto" class="menuoculto">
+
+        <figure>
+            <img class="imagem" src="images/images/logo.svg" alt="logo">
+        </figure>
+        
+        <ul>
+            <a href="javascript:void(0)" class="btnfechar" onclick="fecharnav()">&#9776;</a>
+            <li class="list"><img src="images/images/search.svg" ><a href="#">Buscar</a></li>
+            <li class="list"><img src="images/images/grid.svg" ><a href="#">Dashboard</a></li>
+            <li class="list"><img src="images/images/pet.svg" ><a href="#">Pets</a></li>
+            <li class="list"><img src="images/images/user.svg" ><a href="#">Clientes</a></li>
+            <li class="list"><img src="images/images/vet.svg"><a href="#">Vets</a></li>
+            <li class="list"><img src="images/images/settings.svg" ><a href="#">Ajustes</a></li>
+        </ul>
+
+        
+            <div class="baixo">
+                <img class="photo" src="images/images/photo.jpg" alt="perfil">
+                <h2>Eleanor Pena</h2>
+                <p>Veterinária</p>
+            </div>
+            
+        
+    </nav>
+
+    <section id="principal">
+        <span style="font-size:30px;cursor:pointer" onclick="abrirnav()">&#9776;</span>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
